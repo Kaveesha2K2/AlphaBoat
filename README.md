@@ -1,4 +1,5 @@
 # 🚤 AlphaBoat – Automated Waste Collecting Boat
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/ae9bf46f-f5e9-458f-9f27-3e6b2c3b001d" />
 
 Autonomous waste-collecting boat using Raspberry Pi 5, ESP32, and a custom YOLO model with PID-based object tracking and dual-mode (auto/manual) control.
 
