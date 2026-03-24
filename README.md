@@ -13,29 +13,35 @@ Communication: USB Serial (Pi ↔ ESP32), HC-12 (Remote Control)
 Vision System: USB Webcam + Custom YOLO Model
 Navigation: Dual Paddle Wheel Mechanism
 Body Material: PVC Structure
+
 🚀 Features
 🤖 Autonomous Mode
 Detects floating waste using a custom-trained YOLO model
 Processes real-time video from USB webcam
 Sends detection data to ESP32 via serial communication
 Automatically navigates towards detected objects
+
 🎮 Manual Mode
 Controlled via wireless remote controller
 Uses HC-12 module for long-range communication
 Joystick-based navigation control
+
 🚧 Obstacle & Boundary Detection
 Uses 3 ToF (Time-of-Flight) sensors:
 Front
 Left
 Right
 Helps avoid collisions and maintain safe navigation
+
 🧭 Navigation System
 Two paddle wheels for differential steering
 Enables forward, backward, and turning maneuvers
+
 🗑️ Waste Collection Mechanism
 Dual MG996 Servo Motors
 Operate gate mechanism for waste collection
 Rotate camera for better field of view
+
 🔌 Hardware Components
 Raspberry Pi 5
 ESP32 (Boat Control)
@@ -47,6 +53,7 @@ MG996 Servo Motors (x2)
 Paddle Wheel Motors (x2)
 Joystick Module (Remote)
 PVC Body Structure
+
 🔄 Communication Flow
 Camera captures live video
 Raspberry Pi runs YOLO model for object detection
@@ -55,6 +62,7 @@ ESP32 processes data and controls:
 Motors (navigation)
 Servo gates (waste collection)
 Manual override available via HC-12 remote controller
+
 🧠 Software Stack
 Python (Raspberry Pi)
 OpenCV
@@ -63,6 +71,7 @@ Arduino / Embedded C (ESP32)
 Motor control
 Sensor integration
 Serial communication
+
 🤖 Autonomous Navigation Logic
 
 When the system enters Autonomous Mode, the boat follows a structured scanning and navigation algorithm to efficiently detect and collect waste.
@@ -79,14 +88,17 @@ Scans for 5 seconds
 If no waste is found in all directions:
 Boat moves forward for 3 seconds
 The scanning cycle repeats
+
 🎯 Object Detection & Tracking
 Waste is detected using a custom-trained YOLO model
 Once an object is detected:
 The system switches from scanning to tracking mode
+
 🧭 Orientation Adjustment
 If the object is detected at an angle (-60° or +60°):
 The boat uses the MPU6050 IMU sensor
 Rotates to align with the detected object’s direction before moving forward
+
 🎮 Object Following (PID Control)
 Object tracking is based on pixel error:
 Difference between object position and image center
@@ -97,14 +109,17 @@ This ensures:
 Smooth navigation
 Accurate object following
 Reduced oscillations
+
 🗑️ Waste Collection
 Once the boat reaches the object:
 The servo-driven gate mechanism is activated
 Waste is collected into the storage area
+
 🔁 Continuous Operation
 After collection:
 The system resumes the scanning cycle
 Continues until manually stopped or switched to manual mode
+
 📷 Future Improvements
 GPS-based navigation
 Solar power integration
