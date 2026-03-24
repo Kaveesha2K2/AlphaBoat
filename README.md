@@ -175,7 +175,8 @@ When the system enters Autonomous Mode, the boat follows a structured scanning a
 
 ## References
 
-- [Creating Custom Models](https://www.youtube.com/watch?v=r0RspiLG260&t=1085s)  
-- [Raspberry Pi Object Detection](https://www.youtube.com/watch?v=z70ZrSZNi-8&t=334s)
+
+- [Creating Custom Models - YouTube](https://www.youtube.com/watch?v=r0RspiLG260&t=1085s)  
+- [Raspberry Pi Object Detection - YouTube](https://www.youtube.com/watch?v=z70ZrSZNi-8&t=334s)
 
 ---
