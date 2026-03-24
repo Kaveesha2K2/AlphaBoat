@@ -1,4 +1,4 @@
-# 🚤 AlphaBoat – Automated Waste Collecting Boat
+<p align="center"> # 🚤 AlphaBoat – Automated Waste Collecting Boat </p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6599509c-509c-4058-9b40-b8ae3b211204" width="500"/>
 </p>
