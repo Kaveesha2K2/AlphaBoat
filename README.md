@@ -1,4 +1,4 @@
-<p align="center"> # 🚤 AlphaBoat – Automated Waste Collecting Boat </p>
+<h1 align="center">🚤 AlphaBoat – Automated Waste Collecting Boat</h1>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6599509c-509c-4058-9b40-b8ae3b211204" width="500"/>
 </p>
