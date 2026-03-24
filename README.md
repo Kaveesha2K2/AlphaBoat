@@ -16,6 +16,9 @@ The system uses a custom-trained YOLO object detection model running on a Raspbe
 
 ---
 
+## ⚙️ Demo Video
+- [Auto Mode Testing - YouTube](https://youtube.com/shorts/W3KBWQQizXY)  
+
 ## ⚙️ System Architecture
 
 - **Processing Unit:** Raspberry Pi 5  
