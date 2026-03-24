@@ -2,8 +2,9 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6599509c-509c-4058-9b40-b8ae3b211204" width="500"/>
 </p>
-
-Autonomous waste-collecting boat using Raspberry Pi 5, ESP32, and a custom YOLO model with PID-based object tracking and dual-mode (auto/manual) control.
+<p align="center">
+Autonomous waste-collecting boat using Raspberry Pi 5, ESP32, and YOLO-based object detection
+</p>
 
 ---
 
