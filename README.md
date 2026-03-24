@@ -16,7 +16,7 @@ The system uses a custom-trained YOLO object detection model running on a Raspbe
 
 ---
 
-## ⚙️ Demo Video
+## 🎥 Demo Video
 - [Auto Mode Testing - YouTube](https://youtube.com/shorts/W3KBWQQizXY)  
 
 ## ⚙️ System Architecture
